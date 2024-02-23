@@ -19,4 +19,6 @@ Just clone this repository and configure
 If you have PHP alredady installed in your machine (preferably version 8.3)
 
 ### Docker
-Create an `.env` file from `.env.example` to define on which port
+Create an `.env` file from `.env.example` to define on which port the container will be running.
+
+The Dockerfile comes with Alpine 3.19, Nginx 1.24, Supervisor, PHP 8.3 and Composer.
